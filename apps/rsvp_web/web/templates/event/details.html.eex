@@ -7,3 +7,6 @@
 </h1>
 
 <h3><%= format_date @event.date %></h3>
+<h4>@ <%= format_time @event.date %></h4>
+
+<p><%= @event.description %></p>
